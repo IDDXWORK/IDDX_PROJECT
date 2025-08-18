@@ -1,0 +1,90 @@
+env name is iddx_env (im putting this in gitignore)
+
+this is how to run scripts:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser #allows local or only signed internet scripts to run
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser #allows all scripts to run
+
+as of 18/8/2025: //nikhil
+we only have 11 videos and in the data arr , index upto 23
+will work on making a video with bbox l8r
+im making a deploy key on github for read and write access for this repo
+yolov11
+
+THIS IS HOW TO GENERATE A NEW SSH KEY PAIR(USING THIS FOR DEPLOY KEYS ON GITHUB):
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+    ours is:    ssh-keygen -t rsa -b 4096 -C "iddxwork@gmail.com"
+    it will place in default file location :(~/.ssh/id_rsa)
+
+Your identification has been saved in C:\Users\Admin/.ssh/id_rsa
+Your public key has been saved in C:\Users\Admin/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:EEgT9pI76+0G5HT00hvijY51S4idLho4URDeywvFs2Q iddxwork@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|o. .=o.          |
+|..o..+..         |
+| ..Eo.oo         |
+| .= *o+.+        |
+|.. Bo= BSo       |
+| o. =oB =        |
+|o ...* o .       |
+| . oo.+ .        |
+|  ...+o          |
++----[SHA256]-----+
+
+
+DO cat location of key to get this:
+-----BEGIN OPENSSH PRIVATE KEY-----
+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
+-----END OPENSSH PRIVATE KEY-----
+
+
+PUBLIC KEY (USED FOR DEPLOY KEY ON GITHUB):
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQChHHSlqHEsAlIv9LMVoHeAlMwqsvcA2XPQx9esDf2cUxckSSKzvlJV6DPx+w7amv0Dg0fMU2g8SP49NIWQRICJMsxln8HM5RAUKUYmqrehQs4RVAHEtQNfS8Hd2jGAJAT0iM/7tBfHB3ZN/6T2LrwMJeTXVraeWCDukDvndnDBx/fhUiAeiTb/qPqcyCke7K25nrUaSOtrQVxJPCJ+4+436nEL7HWv5EjMhzLjwE/1/zyLPttxiZgIkSLVmJ4S0R04MntB2h0oDJuxok/ean+yYbuU4IZlecE39Zfb/C/j0PDfFY6XqifymJqZFpeXp0e7f9Ytwp7fMlteoHHrBgoTLA52ynGCjHTvHzMrI/V+onbA0wwpeuxrfoX2GIWIPIhccK7kaVNaCDmQCXjIWA3FqTokp4ixB32HBpvfQTzT7T2Vkq0iMF6Z5emraCZ5HftglVaSvERXQIvJ6seYb2sc4TtD5OcF+PZA8Y5ob3p1KVQ3U2697iSpIWIC8FyXGaCUlDAYdafk6W7qRpfyJ+lvq2vAd96w/fjPvSJDcbtgmVPKf0Sukxw5eK8IjN2XFIBaUrRNyDqkVN5tdd/1GxRuX0TyVDJOAlS0GHZ/2ceAnoWES+vSrMK/ZHbwmVLz1BbJ058ajqhdShQQkmTbymL0hz4wHRJY+ijeTZh6MQvA8Q== iddxwork@gmail.com
