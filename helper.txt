@@ -4,7 +4,7 @@ this is how to run scripts:
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser #allows local or only signed internet scripts to run
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser #allows all scripts to run
 
-as of 18/8/2025: //nikhil
+18/8/2025: //nikhil
 we only have 11 videos and in the data arr , index upto 23
 will work on making a video with bbox l8r
 im making a deploy key on github for read and write access for this repo
@@ -88,3 +88,7 @@ mRS94pp/y0sAAAASaWRkeHdvcmtAZ21haWwuY29tAQ==
 
 PUBLIC KEY (USED FOR DEPLOY KEY ON GITHUB):
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQChHHSlqHEsAlIv9LMVoHeAlMwqsvcA2XPQx9esDf2cUxckSSKzvlJV6DPx+w7amv0Dg0fMU2g8SP49NIWQRICJMsxln8HM5RAUKUYmqrehQs4RVAHEtQNfS8Hd2jGAJAT0iM/7tBfHB3ZN/6T2LrwMJeTXVraeWCDukDvndnDBx/fhUiAeiTb/qPqcyCke7K25nrUaSOtrQVxJPCJ+4+436nEL7HWv5EjMhzLjwE/1/zyLPttxiZgIkSLVmJ4S0R04MntB2h0oDJuxok/ean+yYbuU4IZlecE39Zfb/C/j0PDfFY6XqifymJqZFpeXp0e7f9Ytwp7fMlteoHHrBgoTLA52ynGCjHTvHzMrI/V+onbA0wwpeuxrfoX2GIWIPIhccK7kaVNaCDmQCXjIWA3FqTokp4ixB32HBpvfQTzT7T2Vkq0iMF6Z5emraCZ5HftglVaSvERXQIvJ6seYb2sc4TtD5OcF+PZA8Y5ob3p1KVQ3U2697iSpIWIC8FyXGaCUlDAYdafk6W7qRpfyJ+lvq2vAd96w/fjPvSJDcbtgmVPKf0Sukxw5eK8IjN2XFIBaUrRNyDqkVN5tdd/1GxRuX0TyVDJOAlS0GHZ/2ceAnoWES+vSrMK/ZHbwmVLz1BbJ058ajqhdShQQkmTbymL0hz4wHRJY+ijeTZh6MQvA8Q== iddxwork@gmail.com
+
+
+20.8.2025 / nikhil
+im trying to display the bbox around the objects in the a frame of the video
