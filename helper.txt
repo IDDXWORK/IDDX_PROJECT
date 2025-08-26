@@ -90,5 +90,15 @@ PUBLIC KEY (USED FOR DEPLOY KEY ON GITHUB):
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQChHHSlqHEsAlIv9LMVoHeAlMwqsvcA2XPQx9esDf2cUxckSSKzvlJV6DPx+w7amv0Dg0fMU2g8SP49NIWQRICJMsxln8HM5RAUKUYmqrehQs4RVAHEtQNfS8Hd2jGAJAT0iM/7tBfHB3ZN/6T2LrwMJeTXVraeWCDukDvndnDBx/fhUiAeiTb/qPqcyCke7K25nrUaSOtrQVxJPCJ+4+436nEL7HWv5EjMhzLjwE/1/zyLPttxiZgIkSLVmJ4S0R04MntB2h0oDJuxok/ean+yYbuU4IZlecE39Zfb/C/j0PDfFY6XqifymJqZFpeXp0e7f9Ytwp7fMlteoHHrBgoTLA52ynGCjHTvHzMrI/V+onbA0wwpeuxrfoX2GIWIPIhccK7kaVNaCDmQCXjIWA3FqTokp4ixB32HBpvfQTzT7T2Vkq0iMF6Z5emraCZ5HftglVaSvERXQIvJ6seYb2sc4TtD5OcF+PZA8Y5ob3p1KVQ3U2697iSpIWIC8FyXGaCUlDAYdafk6W7qRpfyJ+lvq2vAd96w/fjPvSJDcbtgmVPKf0Sukxw5eK8IjN2XFIBaUrRNyDqkVN5tdd/1GxRuX0TyVDJOAlS0GHZ/2ceAnoWES+vSrMK/ZHbwmVLz1BbJ058ajqhdShQQkmTbymL0hz4wHRJY+ijeTZh6MQvA8Q== iddxwork@gmail.com
 
 
-20.8.2025 / nikhil
+25.8.2025 / nikhil
 im trying to display the bbox around the objects in the a frame of the video
+
+
+25.8.2025 / nikhil
+i have completed the bbox creation around objects as it is given in the annotations, one issue im running into is that the 
+annotation data contains some objects that go outside of the bbox but it still gives that box as existing
+so when i try to create the rectangle around that object, nothing is made since it exceeds the limits of the video frame
+Im not sure what to do with this.
+Also i have seen that there are supposed to be 1000+ videos but we only have 11, i have mailed the iddx support about this asking for 
+a different download link so that their server wont fail,yet to see a response.
+the result img is stored in ['result data'] folder
